@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="533.0" prefWidth="677.0" style="-fx-background-color: #000000;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="take.jo.FXMLDocumentController">
+   <children>
+      <ImageView fx:id="one" fitHeight="104.0" fitWidth="110.0" layoutX="14.0" layoutY="219.0" onDragDetected="#One" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../cardova%20application/src/cardova/application/image/built.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="two" fitHeight="104.0" fitWidth="110.0" layoutX="136.0" layoutY="205.0" onDragDetected="#Two" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../cardova%20application/src/cardova/application/image/der.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="four" fitHeight="104.0" fitWidth="110.0" layoutX="393.0" layoutY="212.0" onDragDetected="#Four" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../cardova%20application/src/cardova/application/image/load.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="five" fitHeight="104.0" fitWidth="110.0" layoutX="534.0" layoutY="217.0" onDragDetected="#Five" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../cardova%20application/src/cardova/application/image/use.PNG" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="three" fitHeight="104.0" fitWidth="124.0" layoutX="275.0" layoutY="212.0" onDragDetected="#Three" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../cardova%20application/src/cardova/application/image/dzon.PNG" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
